@@ -11,12 +11,14 @@ body {
   height: fit-content;
   display: flex;
   flex-direction: column;
-  box-shadow: 5px 5px 30px 1px black;
+  box-shadow: 2px 2px 20px  black;
   margin: 20px auto;
   border-radius: 15px;
   align-items: center;
   justify-content: center;
   padding: 15px;
+  border: 5px solid #1d9a71;
+
 }
 
 h1 {
@@ -24,7 +26,8 @@ h1 {
 }
 
 .countPlus,
-.reset {
+.reset,
+.counterMinus {
   margin: 10px;
   width: 70px;
   padding: 5px;
@@ -40,7 +43,17 @@ h1 {
 }
 
 .tabsihCounter {
-  color: #1d9a71;
+  /* color: #1d6985; */
+  /* color: rgb(49, 49, 180); */
+  /* color:#10b981; */
+  color: #047857;
+  background-color: #b9f7df;
+  padding: 20px;
+  min-width: 60px;
+  border-radius: 50%;
+  border: 3px solid #1d9a71;
+  text-align: center;
+
   font-size: 40px;
   font-weight: 800;
 }
